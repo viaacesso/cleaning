@@ -1,0 +1,189 @@
+:root {
+
+  --purple-light: #FFEDED;
+  --purple-medium: #FFC4E1;
+  --purple: #FF87CA;
+  --light-color: #EAEAEA;
+  --purple: #9C19E0;
+  --purple-dark: #7027A0;
+
+
+
+}
+
+
+body {
+  font-family: 'Montserrat';
+  text-transform: capitalize;
+}
+
+/* NAVBAR STARTS */
+.navbar-nav {
+  margin-right: 2%;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-left: 2%;
+}
+
+.nav-item {
+  font-weight: 700;
+}
+
+/* NAVBAR ENDS */
+/* ********************************************************* */
+/* PRICINS STARTS */
+#pricing {
+  background-color: white;
+  padding: 10%;
+  text-align: center;
+
+}
+
+
+
+/* PRICINS ENDS */
+/* ********************************************************** */
+/* FEATURES STARTS */
+#features {
+  background-color: white;
+  padding: 10%;
+  text-align: center;
+}
+
+
+.feature-heading {
+  padding-top: 2.5%;
+  margin: 2.5%;
+  text-align: center;
+
+}
+
+.icon {
+  margin-bottom: 10%;
+}
+
+.feature-text-paragraph {
+  color: #8f8f8f;
+}
+
+.pricing-button {
+  background-color: var(--purple);
+  color: white;
+}
+
+.pricing-button:hover {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: .3s ease;
+
+}
+
+.pricing-button-outline {
+  border-color: #7027A0;
+}
+
+.pricing-button-outline:hover {
+  color: #7027A0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: .3s ease;
+}
+
+/* FEATURES ENDS */
+/* ********************************************************** */
+/* REVIEWS STARTS */
+#reviews {
+  background-color: var(--purple-dark);
+  color: var(--purple-light);
+  padding: 10%;
+  text-align: center;
+}
+
+.review-image {
+  border-radius: 100%;
+  margin-top: 10%;
+  max-width: 200px;
+}
+
+.review-text-h2 {
+  font-weight: 900;
+}
+
+
+
+
+/* REVIEWS ENDS */
+
+/* PRESS STARTS */
+#press {
+  background-color: var(--purple-dark);
+  color: var(--purple-light);
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+/* PRESS ENDS */
+
+/* CTA STARTS */
+#cta {
+  background-color: var(--purple-dark);
+  color: var(--purple-light);
+  padding: 7%;
+  text-align: center;
+}
+
+.cta-text-h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.cta-button {
+  font-weight: 900;
+}
+
+.cta-button:hover {
+  transition: .3s ease;
+}
+
+/* CTA ENDS */
+
+/* FOOTER STARTS */
+
+#footer {
+  background-color: white;
+  color: var(--purple-dark);
+  padding: 7%;
+  text-align: center;
+
+}
+
+.footer-icon {
+  color: var(--purple-dark);
+  margin-bottom: 3%;
+  padding: 1%;
+}
+
+.footer-icon:hover {
+  color: var(--purple-medium);
+  transition: .3s ease;
+}
+
+.footer-copyright {
+  color: #7027A0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-copyright:hover {
+  color: var(--purple-medium);
+  font-weight: 900;
+  transition: 0.2s ease;
+}
+
+/* FOOTER ENDS */
